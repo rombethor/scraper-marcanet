@@ -265,7 +265,7 @@ var steps =[
 
 				var postdata = "nExpediente="+marca.expediente+"&nRegistro="+marca.registro+"&dVigencia="+dateform+"&wName="+marca.nombre+"&wDenominacion="+marca.denominacion+"&nTipo="+marca.tipo+"&nClase="+marca.clase+"&nTelefono="+marca.telefono+"&wCorreo="+marca.correo+"&bRenovacion="+marca.renovacion+"&nDias="+diff+"&dPresentacion="+presdate;
 
-				page.open("http://www.iltas.com.mx/inteligencia/addToImpi.php", 'post', postdata, function(status){
+				page.open("http://www.mydatabasesite.com.mx/addToDatabase.php", 'post', postdata, function(status){
 					if(status !== 'success')
 					{	console.log('Unable to post!'); }
 					else
